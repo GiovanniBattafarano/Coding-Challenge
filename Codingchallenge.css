@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+body
+{
+background: url(background.jpg) no-repeat;
+background-size: cover;
+padding: 20px;
+color: white;
+}
+
+#translucentbackground{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 850px;
+  width: 1200px;
+  border-radius: 20px;
+  margin: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 100px;
+}
+
+img[src="logo.png"]{
+    margin-bottom: -20px;
+    width: 250px;
+}
+
+header,nav{
+  color: rgb(0,221,0);
+  text-align: center;
+}
+
+.navbackground{
+  background-color: rgb(0, 221, 0);
+  padding: 10px;
+  margin: -15px 0px 0px;
+}
+
+input[type="button"],.monopattino{
+  height: 25px;
+}
+
+section h2{
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.monopattino{
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+/* Carica dei monopattini */
+
+.uno{
+ background-color: rgb(245,180,83);
+ width: 350px;
+}
+
+.due{
+  background-color: rgb(30, 195, 30);
+  width: 600px;
+}
+
+.tre{
+  background-color: rgb(190, 65, 65);;
+  width: 150px;
+}
